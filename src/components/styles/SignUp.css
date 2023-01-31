@@ -1,0 +1,59 @@
+.signuppage{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+
+   }
+label{
+    display: flex;
+   justify-content: flex-start;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+}
+input
+{
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid rgb(18, 183, 189);
+        border-radius: 2px;
+}
+.signupform {
+            border: 4px solid rgb(18, 183, 189);
+            border-radius: 15px;
+            background-color: white;
+            width: 450px;
+            height: 450pd;
+            transform: translate(10px);
+            padding: 10px 10px 10px 10px;
+            box-shadow: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }   
+   #loginbut{
+       color: black;
+       border: px solid #19baf0 ;
+       font-size: 20px;
+       font-family: Garamond;
+   }
+   /* f44336 */
+   #signupbut{
+    color: black;
+       border: 1px solid #f44336 ;
+       font-size: 20px;
+       font-family: Garamond;
+   }
+   #loginbut:hover{
+       background-color: rgb(18, 183, 189);
+       border-radius: 10px;
+       color: white;
+   }
+   #signupbut:hover{
+       background-color: #f44336;
+       border-radius: 10px;
+       color: white;
+   }
+   select[multiple] {
+    width: 10px;
+  }

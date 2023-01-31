@@ -1,0 +1,81 @@
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+button:hover{
+       /* transition-duration: 0.4s; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+     cursor: pointer;
+}
+label {
+    font-family: Garamond;
+    font-size: 20px;
+}
+input {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid rgb(18, 183, 189);
+    border-radius: 2px;
+}
+.loginpage{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.loginform
+{
+       border: 4px solid #12b7bd;
+       border-radius: 15px;
+       background-color: white;
+       width: 340px;
+       height: 350px;
+       transform: translate(10px);
+       padding: 10px 10px 10px 10px;
+       box-shadow: 10px;      
+}
+#logintitle
+{
+   text-align: center;
+   font-family: Garamond;
+   font-size:larger;
+}
+#loginbut{
+       /* background-color: white; */
+       color: black;
+       border: px solid #19baf0 ;
+       font-size: 20px;
+       font-family: Garamond;
+}
+   #signupbut {
+       /* background-color: white; */
+       color: black;
+       border: px solid red ;
+       font-size: 20px;
+       font-family: Garamond;
+       display: flex;
+       justify-content: center;
+              color: black;
+              border: px solid red;
+              font-size: 20px;
+              font-family: Garamond;
+              display: flex;
+              justify-content: center;
+          }
+#loginbut:hover{
+       background-color: #12b7bd;
+       border-radius: 10px;
+       color: white;
+}
+#signuptxt{
+       font-size: 20px;
+       font-family: Garamond;
+       text-align: center;
+}
+#signupbut:hover{
+       background-color: red;
+       border-radius: 10px;
+       color: white;
+}

@@ -1,0 +1,64 @@
+#askques
+{
+    color: black;
+    border: 1px solid #12b7bd ;
+    font-size: 20px;
+    font-family: Garamond;
+    display: flex;
+    justify-content: flex-end;
+}
+#allques{
+        font-size: 20px;
+        font-family: Garamond;
+        text-align: left;
+}
+#askques:hover{
+    background-color: #12b7bd;
+    border-radius: 10px;
+    color: white;
+}
+#blogques{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+#doubt{
+    font-family: Garamond;
+    font-size: 20px;
+
+}
+#questitle{
+font-size: medium;
+cursor: pointer;
+color: #12b7bd;
+}
+#questitle:hover{
+    color: #01686be5;
+}
+#answ{
+font-size: small;
+}
+#createdby{
+    color: blue;
+    text-align: right;
+
+}
+#replybut{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+}
+#left
+{
+    float: left;
+    text-align: left;
+    padding-right: 10px;
+}
+#replyicon{
+    text-align: right;
+}
+/* #center{
+    
+} */
