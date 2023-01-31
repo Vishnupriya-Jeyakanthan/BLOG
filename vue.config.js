@@ -16,6 +16,7 @@ module.exports = defineConfig({
         target:'http://10.30.1.164:8082',
         pathRewrite: {'/two' : ''}
       }
+      //comment added
     }
   }
 })
